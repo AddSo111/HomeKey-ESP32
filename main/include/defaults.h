@@ -61,7 +61,7 @@
 #define BTR_PROX_BAT_LOW_THRESHOLD 10 // Battery low status threshold percentage
 
 // Ethernet Settings
-#define ETH_ENABLED false // Enable or disable Ethernet connectivity
+#define ETH_ENABLED true // Enable or disable Ethernet connectivity
 // See https://github.com/rednblkx/HomeKey-ESP32/blob/main/main/include/eth_structs.hpp for supported chips and presets
 #define ETH_ACTIVE_PRESET 255 // Ethernet preset index (255 for custom pins)
 #define ETH_PHY_TYPE 1 // Ethernet PHY type identifier
