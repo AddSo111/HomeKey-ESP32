@@ -73,12 +73,12 @@
 #define ETH_RMII_CONF_RMII_CLOCK_MODE 0 // RMII Clock Mode
 // Ethernet SPI Configuration
 #define ETH_SPI_CONF_SPI_FREQ_MHZ 20 // SPI Frequency
-#define ETH_SPI_CONF_PIN_CS 10 // Chip Select Pin
-#define ETH_SPI_CONF_PIN_IRQ 255 // Interrupt Request Pin
-#define ETH_SPI_CONF_PIN_RST 255 // Reset Pin
-#define ETH_SPI_CONF_PIN_SCK 12 // Serial Clock Pin
-#define ETH_SPI_CONF_PIN_MISO 13 // Master In, Slave Out Pin
-#define ETH_SPI_CONF_PIN_MOSI 11 // Master Out, Slave In Pin
+#define ETH_SPI_CONF_PIN_CS 41 // Chip Select Pin
+#define ETH_SPI_CONF_PIN_IRQ 42 // Interrupt Request Pin
+#define ETH_SPI_CONF_PIN_RST 39 // Reset Pin
+#define ETH_SPI_CONF_PIN_SCK 36 // Serial Clock Pin
+#define ETH_SPI_CONF_PIN_MISO 37 // Master In, Slave Out Pin
+#define ETH_SPI_CONF_PIN_MOSI 35 // Master Out, Slave In Pin
 
 // Actions
 #define NFC_NEOPIXEL_PIN 255 // GPIO Pin used for NeoPixel
