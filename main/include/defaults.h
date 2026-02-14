@@ -63,7 +63,7 @@
 // Ethernet Settings
 #define ETH_ENABLED true // Enable or disable Ethernet connectivity
 // See https://github.com/rednblkx/HomeKey-ESP32/blob/main/main/include/eth_structs.hpp for supported chips and presets
-#define ETH_ACTIVE_PRESET 0 // Ethernet preset index (255 for custom pins)
+#define ETH_ACTIVE_PRESET 1 // Ethernet preset index (255 for custom pins)
 #define ETH_PHY_TYPE 1 // Ethernet PHY type identifier
 // Ethernet RMII Configuration
 #define ETH_RMII_CONF_PHY_ADDR 0 // PHY Address
