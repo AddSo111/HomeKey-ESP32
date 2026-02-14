@@ -74,8 +74,8 @@
 // Ethernet SPI Configuration
 #define ETH_SPI_CONF_SPI_FREQ_MHZ 20 // SPI Frequency
 #define ETH_SPI_CONF_PIN_CS 10 // Chip Select Pin
-#define ETH_SPI_CONF_PIN_IRQ 14 // Interrupt Request Pin
-#define ETH_SPI_CONF_PIN_RST 9 // Reset Pin
+#define ETH_SPI_CONF_PIN_IRQ 255 // Interrupt Request Pin
+#define ETH_SPI_CONF_PIN_RST 255 // Reset Pin
 #define ETH_SPI_CONF_PIN_SCK 12 // Serial Clock Pin
 #define ETH_SPI_CONF_PIN_MISO 13 // Master In, Slave Out Pin
 #define ETH_SPI_CONF_PIN_MOSI 11 // Master Out, Slave In Pin
