@@ -63,8 +63,8 @@
 // Ethernet Settings
 #define ETH_ENABLED true // Enable or disable Ethernet connectivity
 // See https://github.com/rednblkx/HomeKey-ESP32/blob/main/main/include/eth_structs.hpp for supported chips and presets
-#define ETH_ACTIVE_PRESET 0 // Ethernet preset index (255 for custom pins)
-#define ETH_PHY_TYPE 0 // Ethernet PHY type identifier
+#define ETH_ACTIVE_PRESET 255 // Ethernet preset index (255 for custom pins)
+#define ETH_PHY_TYPE 1 // Ethernet PHY type identifier
 // Ethernet RMII Configuration
 #define ETH_RMII_CONF_PHY_ADDR 0 // PHY Address
 #define ETH_RMII_CONF_MDC_PIN 255 // Management Data Clock Pin
@@ -73,12 +73,12 @@
 #define ETH_RMII_CONF_RMII_CLOCK_MODE 0 // RMII Clock Mode
 // Ethernet SPI Configuration
 #define ETH_SPI_CONF_SPI_FREQ_MHZ 20 // SPI Frequency
-#define ETH_SPI_CONF_PIN_CS 255 // Chip Select Pin
-#define ETH_SPI_CONF_PIN_IRQ 255 // Interrupt Request Pin
-#define ETH_SPI_CONF_PIN_RST 255 // Reset Pin
-#define ETH_SPI_CONF_PIN_SCK 255 // Serial Clock Pin
-#define ETH_SPI_CONF_PIN_MISO 255 // Master In, Slave Out Pin
-#define ETH_SPI_CONF_PIN_MOSI 255 // Master Out, Slave In Pin
+#define ETH_SPI_CONF_PIN_CS 10 // Chip Select Pin
+#define ETH_SPI_CONF_PIN_IRQ 14 // Interrupt Request Pin
+#define ETH_SPI_CONF_PIN_RST 9 // Reset Pin
+#define ETH_SPI_CONF_PIN_SCK 12 // Serial Clock Pin
+#define ETH_SPI_CONF_PIN_MISO 13 // Master In, Slave Out Pin
+#define ETH_SPI_CONF_PIN_MOSI 11 // Master Out, Slave In Pin
 
 // Actions
 #define NFC_NEOPIXEL_PIN 255 // GPIO Pin used for NeoPixel
